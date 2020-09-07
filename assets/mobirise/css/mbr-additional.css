@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,500,600,700,400i,500i,600i,700i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap);
 
 
@@ -43,7 +44,7 @@ body {
   font-size: 1.875rem;
 }
 .display-7 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -1548,26 +1549,31 @@ a {
     left: -1rem;
   }
 }
-.cid-s9OZldE2Nt {
+.cid-s9P0J24o2J {
   padding-top: 10rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-s9P1f11VwU {
+  padding-top: 0rem;
   padding-bottom: 10rem;
   background-color: #ffffff;
 }
-.cid-s9OZldE2Nt .mbr-overlay {
+.cid-s9P1f11VwU .mbr-overlay {
   background-color: #ffffff;
   opacity: 0.4;
 }
-@media (min-width: 992px) {
-  .cid-s9OZldE2Nt form {
-    width: 50%;
-  }
-}
-.cid-s9OZldE2Nt form .mbr-section-btn {
+.cid-s9P1f11VwU form .mbr-section-btn {
   text-align: center;
   width: 100%;
 }
-.cid-s9OZldE2Nt form .mbr-section-btn .btn {
-  width: 100%;
+.cid-s9P1f11VwU form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-s9P1f11VwU form .mbr-section-btn .btn {
+    width: 100%;
+  }
 }
 .cid-s48P1Icc8J {
   padding-top: 2rem;
@@ -2537,31 +2543,26 @@ a {
     left: -1rem;
   }
 }
-.cid-s9P0J24o2J {
+.cid-s9OZldE2Nt {
   padding-top: 10rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-s9P1f11VwU {
-  padding-top: 0rem;
   padding-bottom: 10rem;
   background-color: #ffffff;
 }
-.cid-s9P1f11VwU .mbr-overlay {
+.cid-s9OZldE2Nt .mbr-overlay {
   background-color: #ffffff;
   opacity: 0.4;
 }
-.cid-s9P1f11VwU form .mbr-section-btn {
+@media (min-width: 992px) {
+  .cid-s9OZldE2Nt form {
+    width: 50%;
+  }
+}
+.cid-s9OZldE2Nt form .mbr-section-btn {
   text-align: center;
   width: 100%;
 }
-.cid-s9P1f11VwU form .mbr-section-btn .btn {
-  display: inline-flex;
-}
-@media (max-width: 991px) {
-  .cid-s9P1f11VwU form .mbr-section-btn .btn {
-    width: 100%;
-  }
+.cid-s9OZldE2Nt form .mbr-section-btn .btn {
+  width: 100%;
 }
 .cid-s48P1Icc8J {
   padding-top: 2rem;
